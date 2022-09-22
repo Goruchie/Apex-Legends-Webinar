@@ -1,0 +1,798 @@
+body {
+  margin: 0%;
+  font-family: 'Lato', sans-serif;
+}
+
+.background-cont {
+  background-image: url(./images/apex-back2.png);
+  background-position-x: center;
+  background-repeat: repeat-y;
+  background-size: 124.4%;
+}
+
+.menu-icon {
+  width: 60%;
+}
+
+.nav-menu {
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+.drop-content {
+  display: none;
+  background-color: #ec5342;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 17%;
+  padding-left: 5%;
+  height: 100%;
+}
+
+.drop-content a {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 4%;
+}
+
+.drop-content a:hover { color: #7a869a; }
+
+.show {
+  display: block;
+}
+
+.drop-button {
+  background-color: transparent;
+  border: none;
+}
+
+.cls-btn {
+  position: absolute;
+  right: 8%;
+  top: 1.5%;
+}
+
+.hello-p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #ec5242;
+  font-size: 20px;
+  margin: 5%;
+  margin-bottom: 0%;
+  margin-top: 15%;
+  font-style: normal;
+}
+
+.hello-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello-section h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #ec5242;
+  font-size: 33px;
+  margin: 5%;
+  margin-top: 1%;
+  font-style: normal;
+}
+
+.black-p {
+  color: #272a31;
+  border: solid 4px #fff;
+  background: #f7f7f760;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  width: 80%;
+  padding: 6%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  font-style: normal;
+  margin-top: 2%;
+}
+
+.hello-section h2 {
+  color: #272a31d2;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 5%;
+  margin-bottom: 0%;
+  font-style: normal;
+}
+
+.ea-p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #272a31a4;
+  font-size: 15px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-bottom: 18%;
+  font-style: normal;
+  margin-top: 3%;
+}
+
+.main-program {
+  background-color: #272a31;
+  background-image: url(./images/bg-icon.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: 5%;
+}
+
+.main-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #d3d3d3;
+  font-size: 20px;
+  margin-top: 0%;
+  padding-top: 10%;
+  font-style: normal;
+}
+
+.orange-line {
+  width: 10%;
+  border-bottom: 1px solid #ec5242;
+  margin-bottom: 5%;
+}
+
+.orange-main {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #ec5242;
+  font-size: 15px;
+  align-self: center;
+  margin: 3%;
+  width: 40%;
+  font-style: normal;
+}
+
+.cards {
+  display: flex;
+  background-color: #9292921f;
+  margin: 3%;
+  padding: 3%;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-index p,
+.footer-about p {
+  color: #272a31ce;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cards p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #d3d3d3;
+  font-size: 13px;
+  line-height: 25px;
+  margin: 0%;
+}
+
+.join-button {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  width: 70%;
+  background: #ec5242;
+  border: none;
+  color: #fff;
+  height: 5em;
+  margin: 10%;
+  font-style: normal;
+}
+
+.speakers-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speakers-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  color: #272a31;
+  font-size: 20px;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+.speaker-cards {
+  display: flex;
+  height: 10%;
+  gap: 5%;
+  margin: 3%;
+}
+
+.aceu-img,
+.lulu-img,
+.selly-img,
+.task-img,
+.timmy-img {
+  width: 40%;
+  height: 40%;
+}
+
+.grace-line {
+  width: 10%;
+  border-bottom: 3px solid #d3d3d3;
+  margin: 5%;
+}
+
+.speaker-cards h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #272a31;
+  font-size: 20px;
+  margin: 0%;
+}
+
+.speaker-cards h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #ec5242;
+  font-size: 14px;
+  margin: 5%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}
+
+.speaker-cards p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #272a31;
+  font-size: 12px;
+  margin: 0%;
+}
+
+.speaker-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+/* About page */
+
+.background-cont-about {
+  background-image: url(./images/apex-back2.png);
+  background-position-x: center;
+  background-repeat: repeat-y;
+  background-size: 124.4%;
+}
+
+.hello-p-about {
+  color: #ec5242;
+  font-size: 20px;
+  margin: 0%;
+  margin-top: 5%;
+}
+
+.hello-section-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.hello-cont-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello-cont-about h1 {
+  color: #ec5242;
+  font-weight: 900;
+  font-size: 33px;
+  margin-top: 4%;
+  margin-bottom: 12%;
+  text-align: center;
+}
+
+.black-p-about {
+  color: #272a31a4;
+  font-weight: 700;
+  font-size: 15px;
+  border: solid 2px #ebebeb;
+  background: #fff;
+  line-height: 25px;
+  padding: 5%;
+  margin: 0%;
+  text-align: center;
+}
+
+.hello-cont-about h2 {
+  color: #272a31ce;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.ea-p-about {
+  color: #272a31a4;
+  font-weight: 700;
+  font-size: 15px;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.ea-email {
+  color: #272a31;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration-line: underline;
+}
+
+.apex-logo-section,
+.submit-section {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apex-logo-section h2,
+.submit-section h2 {
+  color: #272a31;
+  font-weight: 700;
+  font-size: 22px;
+  width: 60%;
+  text-align: center;
+  margin: 3%;
+}
+
+.orange-line-about {
+  width: 6%;
+  border-bottom: 1px solid #ec5242;
+  margin: 0%;
+}
+
+.apex-logo-section p,
+.submit-section p {
+  text-align: center;
+  color: #272a31a4;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.apex-logo {
+  width: 90%;
+  margin: 7%;
+  margin-top: 0%;
+}
+
+.submit-section h2 {
+  width: 80%;
+}
+
+.separator-line {
+  width: 100%;
+  border-bottom: 2px solid #272a312f;
+  margin: 0%;
+}
+
+.tournament1,
+.tournament2 {
+  background-image: url('./images/tournament.jpg');
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0%;
+  margin-bottom: 5%;
+  background-size: cover;
+  padding: 10%;
+}
+
+.tournament1 h3,
+.tournament2 h3 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0%;
+}
+
+.tournament1 p,
+.tournament2 p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0%;
+}
+
+.tournament2 {
+  background-image: url("./images/tournament2.jpg");
+}
+
+.partner-section,
+.partner-section-about {
+  background-color: #272a31e7;
+}
+
+.partner-section h3,
+.partner-section-about h3 {
+  text-align: center;
+  padding-top: 8%;
+  color: #d3d3d3;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+
+.corsair {
+  width: 20%;
+  margin: 5%;
+}
+
+.logi {
+  width: 30%;
+  margin: 5%;
+  margin-bottom: 8%;
+}
+
+.razer {
+  width: 14%;
+  margin: 5%;
+}
+
+.partner-line {
+  width: 10%;
+  border-bottom: 1px solid #ec5242;
+  margin: 0%;
+}
+
+.partner-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-index,
+.footer-about {
+  display: flex;
+  align-items: center;
+}
+
+.footer-index img,
+.footer-about img {
+  width: 35%;
+  margin: 8%;
+}
+
+.cards img {
+  width: 15%;
+  height: 15%;
+  margin-right: 2%;
+}
+
+.more-button {
+  margin: 8%;
+  width: 95%;
+  padding: 3%;
+  border: solid 2px #dedede;
+  background-color: #fff;
+  background-image: url(./images/orange-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 3%;
+  background-position-x: 59%;
+  background-position-y: 48.5%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu,
+  .menu-icon,
+  .partner-section-about,
+  .more-button {
+    display: none;
+  }
+
+  header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-desk {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+  }
+
+  .nav-a {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    color: #272a31a6;
+    text-decoration: none;
+  }
+
+  .apex-icon-click {
+    width: fit-content;
+  }
+
+  .section-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .section-btns button {
+    border: solid 4px #ec5242;
+    padding: 0.5em;
+    color: #ec5242;
+    background-color: #fff;
+  }
+
+  .hello-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: flex-start;
+  }
+
+  .hello-p {
+    font-size: 40px;
+    margin-top: 10%;
+  }
+
+  .hello-section h1 {
+    font-size: 80px;
+    margin-bottom: 0%;
+    line-height: 100%;
+  }
+
+  .black-p {
+    padding: 2%;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+
+  .hello-cont {
+    align-items: flex-start;
+  }
+
+  .hello-cont h2 {
+    margin-top: 3%;
+    font-size: 35px;
+  }
+
+  .ea-p {
+    margin-top: 1.5%;
+    font-size: 20px;
+    padding-bottom: 10%;
+  }
+
+  .main-title {
+    padding-top: 5%;
+    font-size: 30px;
+  }
+
+  .main-items {
+    display: flex;
+    width: 75%;
+    padding-bottom: 5%;
+    gap: 0.5%;
+  }
+
+  .cards {
+    margin: 0%;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .join-button {
+    display: none;
+  }
+
+  .orange-main {
+    width: 100%;
+  }
+
+  .footer-index img,
+  .footer-about img {
+    margin: 1%;
+    width: 35%;
+  }
+
+  .cards img {
+    width: 40%;
+    height: 30%;
+  }
+
+  .orange-line {
+    width: 3%;
+    border-bottom: 2px solid #ec5342c9;
+    margin-bottom: 3%;
+  }
+
+  .see-program {
+    color: #d3d3d3;
+    padding-bottom: 5%;
+  }
+
+  .speakers-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    width: 75%;
+  }
+
+  .speaker-cards {
+    height: 90%;
+  }
+
+  .aceu-img {
+    height: 70%;
+  }
+
+  .speakers-title {
+    font-size: 28px;
+    margin-bottom: 1%;
+    margin-top: 5%;
+  }
+
+  .partner-title h3 {
+    padding-top: 1%;
+    font-size: 30px;
+    margin-bottom: 2%;
+  }
+
+  .partner-line {
+    width: 2.5%;
+  }
+
+  .partner-images {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+
+  .corsair,
+  .logi,
+  .razer {
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
+  .footer-back {
+    background-color: #272a31e7;
+  }
+
+  .footer-index,
+  .footer-about {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-index p,
+  .footer-about p {
+    margin-left: 5%;
+    color: #272a31;
+    font-weight: 900;
+  }
+
+  .footer-about p {
+    color: #d3d3d3;
+  }
+
+  .tournament-cards {
+    display: flex;
+    gap: 5%;
+  }
+
+  .submit-section {
+    margin-top: 2%;
+  }
+
+  .apex-logo {
+    width: 50%;
+    margin: 0%;
+  }
+
+  .apex-logo-section p {
+    margin-bottom: 4%;
+    margin-top: 1%;
+  }
+
+  .apex-logo-section h2 {
+    margin-top: 0%;
+    margin-bottom: 1%;
+  }
+
+  .orange-line-about {
+    width: 5%;
+  }
+
+  .submit-section h2 {
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+  .submit-section p {
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
+
+  .hello-cont-about h1 {
+    width: 60%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2%;
+  }
+
+  .hello-p-about {
+    display: none;
+  }
+
+  .black-p-about {
+    width: 70%;
+    margin-top: 3%;
+  }
+
+  .ea-p-about {
+    padding-top: 5%;
+  }
+
+  .hello-cont-about {
+    padding-bottom: 10%;
+  }
+
+  .none-icon {
+    width: 4%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-btns,
+  .see-program,
+  .orange-line-about,
+  .none-icon,
+  .footer-index,
+  .partner-section {
+    display: none;
+  }
+}
