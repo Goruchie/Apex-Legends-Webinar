@@ -12,6 +12,8 @@
 
 ## Live Demo
 
+[Video Demonstration](https://www.loom.com/share/62137c49b6c542c3ad4e83ee94fa49d5)
+
 [Apex Legends Webinar 2022](https://goruchie.github.io/First-Capstone-Project/)
  
 ## Getting Started
