@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Apex Legends Webinar 2022](https://goruchie.github.io/first-mobile/)
+[Apex Legends Webinar 2022](https://goruchie.github.io/)
  
 ## Getting Started
 
