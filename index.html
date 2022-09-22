@@ -13,13 +13,13 @@
 <body>
     <div class="background-cont">
     <header>
-        <nav class="nav-desk">
+        <nav class="nav-desk">          
           <img class="menu-icon none-icon" src="./images/apex-menu.png" alt="nav-menu">
-          <img class="none-icon" src="./images/apex-menu.png" alt="nav-menu">
+          <a class="apex-icon-click" href="index.html"><img class="none-icon" src="./images/apex-menu.png" alt="nav-menu"></a>
             <div class="section-btns">
-            <a href="aboutpage.html">About</a>
-              <a href="#main-program">Program</a>
-                <a href="#speakers">Speakers</a>
+            <a class="nav-a" href="aboutpage.html">About</a>
+              <a class="nav-a" href="#main-program">Program</a>
+                <a class="nav-a" href="#speakers">Speakers</a>
                 <button>AL Campaign</button>
               </div>
                 
@@ -87,6 +87,9 @@
           <h2 class="speakers-title">Featured Speakers</h2>
             <div class="orange-line"></div>            
               <div id="speakersjs" class="speakers-cont"></div>
+              <button class="more-button">
+                MORE
+              </button>
         </section>    
 
         <section class="partner-section">
@@ -101,10 +104,12 @@
         </div>     
         </section>
   
-        <footer>
+        <footer class="footer-index">
           <img src="./images/apex-logo1.png" alt="apex-logo">
           <p>2022 Apex Legends USA. Some rights reserved.</p>
         </footer>
+
+        
 
           <script src="app.js"></script>
 </body>

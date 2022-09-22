@@ -176,7 +176,8 @@ body {
   padding-bottom: 5%;
 }
 
-footer p {
+.footer-index p,
+.footer-about p {
   color: #272a31ce;
   font-weight: 500;
   font-size: 14px;
@@ -433,11 +434,13 @@ footer p {
   background-image: url("./images/tournament2.jpg");
 }
 
-.partner-section {
+.partner-section,
+.partner-section-about {
   background-color: #272a31e7;
 }
 
-.partner-section h3 {
+.partner-section h3,
+.partner-section-about h3 {
   text-align: center;
   padding-top: 8%;
   color: #d3d3d3;
@@ -474,12 +477,14 @@ footer p {
   align-items: center;
 }
 
-footer {
+.footer-index,
+.footer-about {
   display: flex;
   align-items: center;
 }
 
-footer img {
+.footer-index img,
+.footer-about img {
   width: 35%;
   margin: 8%;
 }
@@ -490,9 +495,24 @@ footer img {
   margin-right: 2%;
 }
 
+.more-button {
+  margin: 8%;
+  width: 95%;
+  padding: 3%;
+  border: solid 2px #dedede;
+  background-color: #fff;
+  background-image: url(./images/orange-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 3%;
+  background-position-x: 59%;
+  background-position-y: 48.5%;
+}
+
 @media screen and (min-width: 768px) {
   .nav-menu,
-  .menu-icon {
+  .menu-icon,
+  .partner-section-about,
+  .more-button {
     display: none;
   }
 
@@ -512,7 +532,7 @@ footer img {
     padding: 0.5%;
   }
 
-  .nav-desk a {
+  .nav-a {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -520,6 +540,10 @@ footer img {
     line-height: 44px;
     color: #272a31a6;
     text-decoration: none;
+  }
+
+  .apex-icon-click {
+    width: fit-content;
   }
 
   .section-btns {
@@ -602,8 +626,10 @@ footer img {
     width: 100%;
   }
 
-  footer img {
+  .footer-index img,
+  .footer-about img {
     margin: 1%;
+    width: 35%;
   }
 
   .cards img {
@@ -669,16 +695,28 @@ footer img {
     margin-bottom: 5%;
   }
 
-  footer {
+  .footer-back {
+    background-color: #272a31e7;
+  }
+
+  .footer-index,
+  .footer-about {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
   }
 
-  footer p {
+  .footer-index p,
+  .footer-about p {
     margin-left: 5%;
     color: #272a31;
     font-weight: 900;
+  }
+
+  .footer-about p {
+    color: #d3d3d3;
   }
 
   .tournament-cards {
@@ -752,7 +790,9 @@ footer img {
   .section-btns,
   .see-program,
   .orange-line-about,
-  .none-icon {
+  .none-icon,
+  .footer-index,
+  .partner-section {
     display: none;
   }
 }
