@@ -73,14 +73,6 @@ Clone this repository to your desired folder:
   git clone https://github.com/Goruchie/Apex-Legends-Webinar.git
 ```
 
-### Install
-
-Install this project with:
-
-```sh
-  npm install
-```
-
 ### Deployment
 
 You can deploy this project using:
