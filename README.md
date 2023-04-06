@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
-# Apex Legends Webinar
-
+<div align="center">
+  <h1>Apex Legends Webinar</h1>
+<div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
