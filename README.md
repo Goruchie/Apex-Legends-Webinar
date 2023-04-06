@@ -85,13 +85,9 @@ Install this project with:
 
 You can deploy this project using:
 
-<!--
-Example:
-
 ```sh
   "Live Server" extension on VSCode and click the "Go live" button at the right-bottom corner.
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
