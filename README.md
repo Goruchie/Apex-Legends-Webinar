@@ -1,6 +1,6 @@
 # Apex Legends Webinar ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is a the first Microverse capstone project for HTML/CSS & Javascript module.
+> Apex Legends Webinar is a web page based on a fictional webinar in which you will learn all about the Apex Legends from the best players.
 
 
 ## Built With
