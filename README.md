@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
 
+# Apex Legends Webinar
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
