@@ -1,64 +1,134 @@
-# Apex Legends Webinar ![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-> Apex Legends Webinar is a web page based on a fictional webinar in which you will learn all about the Apex Legends from the best players.
+<!-- TABLE OF CONTENTS -->
 
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+# 📖 Apex Legends Webinar <a name="about-project"></a>
+
+**Apex Legends Webinar** is a web page based on a fictional webinar in which you will learn all about the Apex Legends from the best players.
+
+## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
 - JavaScript
-- Linters
 
-## Live Demo
+### Key Features <a name="key-features"></a>
 
-[Video Demonstration](https://www.loom.com/share/ebbe03099160458cabdf6e29c40b29a0)
+> Describe between 1-3 key features of the application.
 
-[Apex Legends Webinar 2022](https://goruchie.github.io/Apex-Legends-Webinar/)
- 
-## Getting Started
+- **Mobile first application**
+- **Responsive application**
+- **Full CSS styling**
 
-**You can download, take a look and edit this project if you want to, but first make sure that you have the requirements to do it**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-To get a local copy up and running follow these simple example steps.
+- [Live Demo Link](https://goruchie.github.io/Apex-Legends-Webinar/)
 
-### Install Git.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### you must have an account on git hub.
-
-### Install Visual Studio Code or any ide that you have.
-
-### Copy this repository link and clone it to your local machine.
+## 💻 Getting Started <a name="getting-started"></a>
 
 
+To get a local copy up and running, follow these steps.
 
+### Prerequisites
 
+In order to run this project you need:
 
-## Authors
+- Web Browser
+- Code Editor
 
-👤 **Marcos Gualtero Lourenzo**
+### Setup
 
-- GitHub: [githubhandle](@https://github.com/Goruchie)
-- Twitter: [@twitterhandle](https://twitter.com/Goruchie2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marcos-gualtero-a2aa35246/)
+Clone this repository to your desired folder:
 
-## 🤝 Contributing
+```sh
+  cd Apex-Legends-Webinar
+  git clone https://github.com/Goruchie/Apex-Legends-Webinar.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+  "Live Server" extension on VSCode and click the "Go live" button at the right-bottom corner.
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author1**
+
+- GitHub: [@Goruchie](https://github.com/githubhandle)
+- Twitter: [@Goruchie2](https://twitter.com/twitterhandle)
+- LinkedIn: [Marcos Gualtero Lourenzo](https://www.linkedin.com/in/marcosgualtero/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Goruchie/Apex-Legends-Webinar/issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project, please leave a star, I will appreciate that!
 
-- Credit to [Cindy Shin in Behance](https://www.behance.net/adagio07) for the wonderful design
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank @luccamicale for helping me with some deployment issues.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
