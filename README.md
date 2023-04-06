@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>Apex Legends Webinar</h1>
-<div>
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
