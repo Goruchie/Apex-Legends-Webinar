@@ -62,7 +62,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Web Browser
-- Code Editor
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
 ### Setup
 
